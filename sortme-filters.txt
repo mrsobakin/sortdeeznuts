@@ -1,0 +1,18 @@
+! Title: Sortme filters by @mrsobakin
+! Homepage: https://github.com/mrsobakin/sortdeeznuts
+! Source: https://github.com/mrsobakin/sortdeeznuts
+
+sort-me.org##.task-container:style(flex-direction: column;)
+sort-me.org##.task-content:style(width: fit-content !important; padding-bottom: 0px !important;)
+sort-me.org###main-editor:style(width: 100% !important;)
+sort-me.org##.editor-chin:style(width: 100% !important;)
+sort-me.org##.task-send-block:style(width: 100% !important;)
+sort-me.org##.task-submitted:style(padding-top: 0px !important; align-self: center)
+sort-me.org##.task-content:has(.contest-submit-blocker) > div:has(#main-editor)
+sort-me.org##.contest-submit-blocker
+sort-me.org##.task-content:has(.contest-submit-blocker) > .task-send-block > tbody > tr > td > button
+sort-me.org##div.task-text-block > table:style(width: 100%)
+sort-me.org##.samples-item pre:style(width: 500px !important)
+sort-me.org##.task-submitted:style(width:1072px !important)
+sort-me.org##.task-submitted > table:style(width:1072px !important; margin-bottom: 20px !important)
+sort-me.org##.MuiButton-disableElevation.task-show-more.MuiButton-text.MuiButton-root.MuiButtonBase-root:style(width: 1072px !important)
